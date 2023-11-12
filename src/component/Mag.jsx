@@ -102,7 +102,7 @@ class DemoBook extends React.Component {
 
   
   nextButtonClick = () => {
-    this.flipBook.pageFlip().flipNext()
+    this.flipBook.pageFlip().turnToNextPage()
   };
 
 
