@@ -128,9 +128,9 @@ prevButtonClick = () => {
           height={773}
           size="stretch"
           minWidth={361}
-          maxWidth={900}
-          minHeight={550}
-          maxHeight={1533}
+          maxWidth={370}
+          minHeight={450}
+          maxHeight={433}
           maxShadowOpacity={0.5}
           showCover={true}
           mobileScrollSupport={true}
