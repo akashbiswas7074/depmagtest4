@@ -66,10 +66,10 @@ objectFit: 'cover',
 <p>by</p>
 </div>
 
-
+<div className='textall'>
     <div className='top2'><Example2/> </div>
     <div className='top3'><Example3/> </div>
-    <div className='top1'><Example/> </div>
+    <div className='top1'><Example/> </div></div>
     </div>
     </div>
     </body>
