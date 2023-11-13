@@ -212,3 +212,6 @@ opacity: 0;
     align-items: center;
     object-fit: cover;
   }
+  body{
+		background-image: "./1.png";
+	}

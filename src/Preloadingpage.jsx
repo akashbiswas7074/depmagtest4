@@ -1,12 +1,12 @@
 import React from 'react'
 import "./component/Preloading.css"
-
+import "./component/1.png"
 
 
 import  reactlogo2 from "./component/2.png";
 export const Preloadingpage = () => {
   
-  return (
+  return (<div><body>
     <div className='background'>
     <div className='logo'><img src={reactlogo2} alt="react logo"  height={"50px"}
        style={{
@@ -67,7 +67,8 @@ objectFit: 'cover',
     <div className='top1'> </div>
     </div>
     </div>
-
+    </body>
+</div>
     
   )
 }

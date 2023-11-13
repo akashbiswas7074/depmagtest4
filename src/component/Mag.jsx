@@ -901,7 +901,7 @@ prevButtonClick = () => {
           <PageCover>THE END</PageCover>
 
         </HTMLFlipBook>
-        <div className="container2">
+        <div className="container">
           
           <div>
           <div>
@@ -911,10 +911,10 @@ prevButtonClick = () => {
   
   position: "center",   rotate: "180deg", }}/>
 </button>
-
+<div className="Bottom2">
 [<span>{this.state.page}</span> of 
    <span>{this.state.totalPage}</span>]
-
+</div>
 <button className="button2" type="button2" onClick={this.nextButtonClick}>
  <img src={arrow} width={"20px"} style={{
   
