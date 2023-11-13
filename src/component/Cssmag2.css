@@ -473,6 +473,17 @@ img{
 	
 }/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
 @media (min-width:961px)  { 
+	.stf__parent{
+	
+		position: absolute;
+		right: 0%;
+		left: 0%;
+		top: -50%;
+		scale: 0.5;
+		margin: 0 auto;
+		
+		
+	}
 	.button1{
 	position: fixed;
 	top: 50%;
@@ -492,8 +503,7 @@ img{
 		right: 0%;
 		left: 0%;
 		top: -50%;
-		bottom: -50%;
-		scale: 0.7;
+		scale: 0.5;
 		margin: 0 auto;
 		
 		
@@ -517,7 +527,7 @@ img{
 	.stf__block {
 		right: 0%;
 		left: 0%;
-		top: -50%;
+		
 		margin: 0 auto;
 		position: absolute;
 		width: 100%;
