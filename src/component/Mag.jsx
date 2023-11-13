@@ -127,7 +127,7 @@ prevButtonClick = () => {
          width={450}
           height={773}
           size="stretch"
-          minWidth={370}
+          minWidth={361}
           maxWidth={900}
           minHeight={550}
           maxHeight={1533}

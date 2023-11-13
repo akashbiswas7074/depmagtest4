@@ -437,14 +437,7 @@ img{
 	justify-content: center;
 
 }
-.stf__parent{
-	justify-items: center;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-	position: center;
-	
-}
+
 @media (min-width:320px)  { 
 	.button1{
 
@@ -491,7 +484,20 @@ img{
 	
 }
 /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-@media (min-width:1000px) {.back3{
+@media (min-width:1000px) {
+	.stf__parent{
+	
+		position: absolute;
+		right: 0%;
+		left: 0%;
+		top: -50%;
+		bottom: -50%;
+		scale: 0.7;
+		margin: 0 auto;
+		
+		
+	}
+	.back3{
 	display: none;
 	position: fixed;
 } 
@@ -506,10 +512,22 @@ img{
 	right: 0%;
 	
 }/* big landscape tablets, laptops, and desktops */ }
-@media (min-width:1281px) {.back3{
-	display: none;
-	position: fixed;
-}
+@media (min-width:1281px) {
+	.stf__parent{
+	
+		position: absolute;
+		right: 0%;
+		left: 0%;
+		top: -50%;
+		bottom: -50%;
+		scale: 0.5;
+		margin: 0 auto;
+		
+		
+	}
+	
+	
+	
 	.button1{
 		
 	}

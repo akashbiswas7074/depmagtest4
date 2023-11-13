@@ -282,7 +282,7 @@ font-size: 10px;
         padding-top: 70%;
     font-size: 10px;
         bottom: 0%;
-        scale: 0.5;
+        scale: 0.8;
         right: 10%;
         left: 10%;
       }/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
@@ -325,7 +325,7 @@ font-size: 10px;
        
     font-size: 10px;
         bottom: 0%;
-        scale: 0.7;
+        scale: 1;
         right: 10%;
         left: 10%;
       }/* big landscape tablets, laptops, and desktops */ }
