@@ -4,7 +4,9 @@ import "./component/1.png"
 
 
 import  reactlogo2 from "./component/2.png";
-
+import Example from './component/Text1';
+import Example3 from './component/Text3';
+import Example2 from './component/Text2';
 export const Preloadingpage = () => {
   
   return (<div><body>
@@ -64,10 +66,10 @@ objectFit: 'cover',
 <p>by</p>
 </div>
 
-{  /*
-      <div className='top2'><Example2/> </div>
-      <div className='top3'><Example3/> </div>
-      <div className='top1'><Example/> </div>*/}
+
+    <div className='top2'><Example2/> </div>
+    <div className='top3'><Example3/> </div>
+    <div className='top1'><Example/> </div>
     </div>
     </div>
     </body>
