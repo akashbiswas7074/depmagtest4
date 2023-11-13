@@ -239,7 +239,7 @@ right: 0%;
     padding-top: 70%;
 font-size: 10px;
     bottom: 0%;
-    scale: 0.67;
+    scale: 0.5;
     right: 10%;
     left: 10%;
   } /* smartphones, iPhone, portrait 480x320 phones */ }
@@ -258,7 +258,7 @@ font-size: 10px;
         padding-top: 70%;
     font-size: 10px;
         bottom: 0%;
-        scale: 0.67;
+        scale: 0.5;
         right: 10%;
         left: 10%;
       }/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
@@ -282,7 +282,7 @@ font-size: 10px;
         padding-top: 70%;
     font-size: 10px;
         bottom: 0%;
-        scale: 0.9;
+        scale: 0.5;
         right: 10%;
         left: 10%;
       }/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
@@ -302,7 +302,7 @@ font-size: 10px;
         padding-top: 70%;
     font-size: 10px;
         bottom: 0%;
-        scale: 0.9;
+        scale: 0.7;
         right: 10%;
         left: 10%;
       }/* tablet, landscape iPad, lo-res laptops ands desktops */ }
