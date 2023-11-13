@@ -65,9 +65,9 @@ h2 {
 	font-size: 2rem;
 }
 .container {
-	padding-top: 10px;
+	
 	justify-content: center;
-	position: center;
+	position: auto;
 	margin: 0 auto;
 	text-align: center;
 	width: 100%;
@@ -529,8 +529,7 @@ img{
 		text-align: center;
 		
 		font-size: 17px;
-		background-color : transparent;
-		padding: 10px;
+		
 		
 	
 	}
