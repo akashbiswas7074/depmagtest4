@@ -3,6 +3,7 @@ import React, { Component,useRef,useCallback, } from "react";
 import back from "./back1.png";
 import reactLogo from "./1.png";
 import back2 from "./3.png";
+import backwall from "./backwall.png"
 import poem1 from "./poemsnew/poem1.png";
 import poem2 from "./poemsnew/poem2.png";
 import poem3 from "./poemsnew/poem3.png";
@@ -120,7 +121,10 @@ prevButtonClick = () => {
 
   render() {
     return (
-      <div>
+      <div><body style={{backgroundImage: `url(${backwall})`,
+      
+      
+      }}>
       <div className="container"><div className="block">
       <div className="back3"><img src={back2} width={"30%"}/> </div>
         <HTMLFlipBook
@@ -928,7 +932,7 @@ position: "center",  }}/>
         </div>
 
         </div>
-</div>
+</div></body>
               </div>
     );
   }

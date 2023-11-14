@@ -9,7 +9,7 @@ import Example3 from './component/Text3';
 import Example2 from './component/Text2';
 export const Preloadingpage = () => {
   
-  return (<div><body>
+  return (<div><body >
     <div className='background'>
     <div className='logo'><img src={reactlogo2} alt="react logo"  height={"50px"}
        style={{

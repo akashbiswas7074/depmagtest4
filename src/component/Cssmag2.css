@@ -47,11 +47,11 @@ button {
     padding: 16px;
     outline: none;
     border-radius: 4px;
-	opacity: 50%;
+	opacity: 30%;
 }
 button:hover {
    border: none;
-	opacity: 90%;
+	opacity: 70%;
 }
 [type="button"]::-moz-focus-inner,
 button::-moz-focus-inner {
