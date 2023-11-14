@@ -121,10 +121,7 @@ prevButtonClick = () => {
 
   render() {
     return (
-      <div><body style={{backgroundImage: `url(${backwall})`,
-      
-      
-      }}>
+      <div><body >
       <div className="container"><div className="block">
       <div className="back3"><img src={back2} width={"30%"}/> </div>
         <HTMLFlipBook
