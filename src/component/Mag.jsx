@@ -901,13 +901,13 @@ prevButtonClick = () => {
           <PageCover>THE END</PageCover>
 
         </HTMLFlipBook>
-        <div className="container">
+        <div className="container2">
           
           <div>
           <div>
 
 <button className="button1" type="button1" onClick={this.prevButtonClick} >
-  <img src={arrow} width={"20px"} style={{
+  <img src={arrow} width={"40px"} style={{
   
   position: "center",   rotate: "180deg", }}/>
 </button>
@@ -916,7 +916,7 @@ prevButtonClick = () => {
    <span>{this.state.totalPage}</span>]
 </div>
 <button className="button2" type="button2" onClick={this.nextButtonClick}>
- <img src={arrow} width={"20px"} style={{
+ <img src={arrow} width={"40px"} style={{
   
 position: "center",  }}/>
 </button>

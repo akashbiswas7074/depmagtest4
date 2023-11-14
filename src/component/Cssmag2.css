@@ -12,10 +12,10 @@ button {
 	border-radius: 0;
 	background-color: #17a2b8;
 }
-button:focus {
-	outline: 1px dotted;
-	outline: 5px auto -webkit-focus-ring-color;
-}
+.button:focus {
+	outline: none;
+  }
+
 button {
 	margin: 0;
 	font-family: inherit;
@@ -32,25 +32,26 @@ button {
 }
 [type="button"],
 button {
-	-webkit-appearance: button;
-	background-color: #d8d8dd;
+	-webkit-appearance: initial;
+	
 	border-radius: 7px;
 	transition: all .5s ease;
-    color: #fff;
-   
+    color: white;
+   border:none;
     font-family:'Montserrat', sans-serif;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
     font-size: 17px;
     background-color : transparent;
-    padding: 10px;
+    padding: 16px;
     outline: none;
     border-radius: 4px;
+	opacity: 50%;
 }
 button:hover {
-    color: #001F3F;
-    background-color: #fff;
+   border: none;
+	opacity: 90%;
 }
 [type="button"]::-moz-focus-inner,
 button::-moz-focus-inner {
@@ -168,6 +169,7 @@ h2 {
 .btn:hover {
 	color: #ffffff;
 	text-decoration: none;
+	border: none;
 }
 .btn:focus {
 	outline: 0;
