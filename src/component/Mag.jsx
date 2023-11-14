@@ -905,7 +905,7 @@ prevButtonClick = () => {
           <PageCover>THE END</PageCover>
 
         </HTMLFlipBook>
-        <div className="container2">
+        <div className="container">
           
           <div>
           <div>
