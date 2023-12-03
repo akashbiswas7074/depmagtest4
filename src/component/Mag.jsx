@@ -151,7 +151,7 @@ class DemoBook extends React.Component {
 
     this.state = {
       page: 0,
-      totalPage: 63,
+      totalPage: 108,
     };
   }
 
@@ -1391,6 +1391,280 @@ prevButtonClick = () => {
     <Page number={88}><Zoom>
       <img
         src={technicalA34} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={technicalA35} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={90}><Zoom>
+      <img
+        src={technicalA36} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={91}><Zoom>
+      <img
+        src={technicalA37} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={92}><Zoom>
+      <img
+        src={technicalA38} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={93}><Zoom>
+      <img
+        src={technicalA39} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={94}><Zoom>
+      <img
+        src={technicalA40} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+
+    <Page number={95}><Zoom>
+      <img
+        src={technicalA41} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={96}><Zoom>
+      <img
+        src={technicalA42} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={97}><Zoom>
+      <img
+        src={technicalA43} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={98}><Zoom>
+      <img
+        src={technicalA44} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={99}><Zoom>
+      <img
+        src={technicalA45} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={100}><Zoom>
+      <img
+        src={technicalA46} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={101}><Zoom>
+      <img
+        src={technicalA47} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={102}><Zoom>
+      <img
+        src={technicalA48} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={103}><Zoom>
+      <img
+        src={technicalA49} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={104}><Zoom>
+      <img
+        src={technicalA50} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={105}><Zoom>
+      <img
+        src={technicalA51} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={106}><Zoom>
+      <img
+        src={technicalA52} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={107}><Zoom>
+      <img
+        src={technicalA53} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={108}><Zoom>
+      <img
+        src={technicalA54} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={technicalA35} alt="react logo" 
         
         align-items= "stretch"
         width="96%"
