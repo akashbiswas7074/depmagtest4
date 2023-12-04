@@ -1,5 +1,7 @@
 import HTMLFlipBook from "react-pageflip";
 import React, { Component,useRef,useCallback, } from "react";
+
+import Ab from "./13.jpeg";
 import back from "./back1.png";
 import reactLogo from "./1.png";
 import back2 from "./3.png";
@@ -8,6 +10,7 @@ import Articles from "./technical/Articles.png";
 import Drawings from "./technical/Drawings.png";
 import Essays from "./technical/Essays.png";
 import Photographs from "./technical/Photographs.png";
+import Stories from "./technical/Stories.png";
 import End from "./technical/end.png";
 import Poem from "./technical/poem.png";
 import facalty from "./technical/facalty.png";
@@ -128,12 +131,27 @@ import technicalA56 from "./technical/Technical Articles56.png";
 import technicalA57 from "./technical/Technical Articles57.png";
 import technicalA58 from "./technical/Technical Articles58.png";
 import technicalA59 from "./technical/Technical Articles59.png";
+import drawings1 from "./Drawings/Drawings/drawings1.png";
+import drawings2 from "./Drawings/Drawings/drawings2.png";
+import drawings3 from "./Drawings/Drawings/drawings3.png";
+import drawings4 from "./Drawings/Drawings/drawings4.png";
+import photo2 from "./photonew/photonew/photo2.png";
+import photo3 from "./photonew/photonew/photo3.png";
+import photo4 from "./photonew/photonew/photo4.png";
+import photo5 from "./photonew/photonew/photo5.png";
+import photo6 from "./photonew/photonew/photo6.png";
+import photo7 from "./photonew/photonew/photo7.png";
+import photo8 from "./photonew/photonew/photo8.png";
+import photo9 from "./photonew/photonew/photo9.png";
+import photo10 from "./photonew/photonew/photo10.png";
+import photo11 from "./photonew/photonew/photo11.png";
 
 import "./Cssmag2.css"
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css'
 
 import arrow from "./arrow.png";
+import ZoomableImage from "./zoom";
 
 
 const PageCover = React.forwardRef((props, ref) => {
@@ -147,6 +165,8 @@ const PageCover = React.forwardRef((props, ref) => {
 });
 
 const Page = React.forwardRef((props, ref) => {
+  
+   
   return (
     <div className="page" ref={ref}>
       <div className="page-content">
@@ -162,6 +182,7 @@ const Page = React.forwardRef((props, ref) => {
 });
 
 class DemoBook extends React.Component {
+  
   constructor(props) {
     super(props);
 
@@ -188,6 +209,7 @@ prevButtonClick = () => {
   };
 
  
+    
 
   render() {
     return (
@@ -196,7 +218,7 @@ prevButtonClick = () => {
       <div className="back3"><img src={back2} width={"30%"}/> </div>
         <HTMLFlipBook
          width={450}
-          height={773}
+          height={673}
           size="stretch"
           minWidth={361}
           maxWidth={370}
@@ -253,6 +275,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
+    
     <Page number={1}><Zoom>
       <img
         src={lead} alt="react logo" 
@@ -270,9 +293,11 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
+    <Page><ZoomableImage/></Page>
+    
     <Page number={1}><Zoom>
       <img
-        src={facalty} alt="react logo" 
+        src={Ab} alt="react logo" 
         top={"50%"}
         align-items= "center"
         position={"absolute"}
@@ -318,6 +343,72 @@ prevButtonClick = () => {
 	justify-content="space-between"
 	
           
+         
+      />
+    </Zoom></Page>
+     {/*Drawing */}
+     <Page number={89}><Zoom>
+      <img
+        src={Drawings} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={drawings1} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={drawings2} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={drawings3} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={drawings4} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
          
       />
     </Zoom></Page>
@@ -549,8 +640,166 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
+        {/*photography*/}
+        <Page number={89}><Zoom>
+      <img
+        src={Photographs} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+   
+    <Page number={89}><Zoom>
+      <img
+        src={photo2} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo3} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo4} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo5} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo6} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo7} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo8} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo9} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo10} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={photo11} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    
 {/*shortstory*/}
-
+<Page number={18}><Zoom>
+      <img
+        src={Stories} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
           <Page number={18}><Zoom>
       <img
         src={shortstory1} alt="react logo" 
@@ -735,7 +984,19 @@ prevButtonClick = () => {
     </Zoom></Page>
 
   {/*Technical Essays23*/}
-  
+  <Page number={55}><Zoom>
+      <img
+        src={Essays} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
           <Page number={33}><Zoom>
       <img
         src={shortstory15} alt="react logo" 
@@ -1038,6 +1299,19 @@ prevButtonClick = () => {
           <Page number={55}><Zoom>
       <img
         src={technical23} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={55}><Zoom>
+      <img
+        src={Articles} alt="react logo" 
         
         align-items= "stretch"
         width="96%"
@@ -1842,7 +2116,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    
+
           <Page number={6}></Page>
           <Page number={6}></Page>
           <Page number={6}></Page>
