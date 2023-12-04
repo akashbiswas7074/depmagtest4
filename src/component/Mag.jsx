@@ -4,6 +4,17 @@ import back from "./back1.png";
 import reactLogo from "./1.png";
 import back2 from "./3.png";
 import backwall from "./backwall.png"
+import Articles from "./technical/Articles.png";
+import Drawings from "./technical/Drawings.png";
+import Essays from "./technical/Essays.png";
+import Photographs from "./technical/Photographs.png";
+import End from "./technical/end.png";
+import Poem from "./technical/poem.png";
+import facalty from "./technical/facalty.png";
+import facalty2 from "./technical/facalty2.png";
+import facalty3 from "./technical/facalty3.png";
+import lead from "./technical/lead.png";
+import lead2 from "./technical/lead2.png";
 import poem1 from "./poemsnew/poem1.png";
 import poem2 from "./poemsnew/poem2.png";
 import poem3 from "./poemsnew/poem3.png";
@@ -112,6 +123,11 @@ import technicalA51 from "./technical/Technical Articles51.png";
 import technicalA52 from "./technical/Technical Articles52.png";
 import technicalA53 from "./technical/Technical Articles53.png";
 import technicalA54 from "./technical/Technical Articles54.png";
+import technicalA55 from "./technical/Technical Articles55.png";
+import technicalA56 from "./technical/Technical Articles56.png";
+import technicalA57 from "./technical/Technical Articles57.png";
+import technicalA58 from "./technical/Technical Articles58.png";
+import technicalA59 from "./technical/Technical Articles59.png";
 
 import "./Cssmag2.css"
 import Zoom from 'react-medium-image-zoom';
@@ -219,9 +235,78 @@ prevButtonClick = () => {
          
       />
     </Zoom></PageCover>
-          <Page number={1}><Zoom>
+          
+    <Page number={1}><Zoom>
       <img
-        src={reactLogo} alt="react logo" 
+        src={lead2} alt="react logo" 
+        top={"50%"}
+        align-items= "center"
+        position={"absolute"}
+        width="97%"
+        
+	
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"
+	
+          
+         
+      />
+    </Zoom></Page>
+    <Page number={1}><Zoom>
+      <img
+        src={lead} alt="react logo" 
+        top={"50%"}
+        align-items= "center"
+        position={"absolute"}
+        width="97%"
+        
+	
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"
+	
+          
+         
+      />
+    </Zoom></Page>
+    <Page number={1}><Zoom>
+      <img
+        src={facalty} alt="react logo" 
+        top={"50%"}
+        align-items= "center"
+        position={"absolute"}
+        width="97%"
+        
+	
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"
+	
+          
+         
+      />
+    </Zoom></Page>
+    <Page number={1}><Zoom>
+      <img
+        src={facalty2} alt="react logo" 
+        top={"50%"}
+        align-items= "center"
+        position={"absolute"}
+        width="97%"
+        
+	
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"
+	
+          
+         
+      />
+    </Zoom></Page>
+    <Page number={1}><Zoom>
+      <img
+        src={facalty3} alt="react logo" 
         top={"50%"}
         align-items= "center"
         position={"absolute"}
@@ -237,6 +322,23 @@ prevButtonClick = () => {
       />
     </Zoom></Page>
           {/*poem*/}
+          <Page number={1}><Zoom>
+      <img
+        src={Poem} alt="react logo" 
+        top={"50%"}
+        align-items= "center"
+        position={"absolute"}
+        width="97%"
+        
+	
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"
+	
+          
+         
+      />
+    </Zoom></Page>
           <Page number={2} src={poem1} alt="react logo"  > <Zoom>
    <div>  <img
         src={poem1} alt="react logo" 
@@ -1664,7 +1766,7 @@ prevButtonClick = () => {
     </Zoom></Page>
     <Page number={89}><Zoom>
       <img
-        src={technicalA35} alt="react logo" 
+        src={technicalA55} alt="react logo" 
         
         align-items= "stretch"
         width="96%"
@@ -1677,7 +1779,7 @@ prevButtonClick = () => {
     </Zoom></Page>
     <Page number={89}><Zoom>
       <img
-        src={technicalA35} alt="react logo" 
+        src={technicalA56} alt="react logo" 
         
         align-items= "stretch"
         width="96%"
@@ -1688,6 +1790,59 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={technicalA57} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={technicalA58} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={technicalA59} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    <Page number={89}><Zoom>
+      <img
+        src={End} alt="react logo" 
+        
+        align-items= "stretch"
+        width="96%"
+	height= "96%"
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"   
+         
+      />
+    </Zoom></Page>
+    
           <Page number={6}></Page>
           <Page number={6}></Page>
           <Page number={6}></Page>
