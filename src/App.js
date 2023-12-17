@@ -3,7 +3,9 @@ import './component/CSSmag.css'
 import { useEffect,useState } from 'react'
 
 import Preloadingpage from "./Preloadingpage"
-import DemoBook from './component/Mag'
+
+
+import DemoBook from './component/Mag';
 
 function App() {
   const [isLoading,setIsLoading] = useState(true);
