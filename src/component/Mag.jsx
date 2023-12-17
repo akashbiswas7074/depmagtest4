@@ -1,8 +1,7 @@
 import HTMLFlipBook from "react-pageflip";
-import React, { Component,useRef,useCallback, } from "react";
+import React from "react";
 
-import back from "./back1.png";
-import reactLogo from "./1.png";
+
 import back2 from "./3.png";
 import font from "./technical/font.png"
 import p2 from "./technical/3rd.png"
