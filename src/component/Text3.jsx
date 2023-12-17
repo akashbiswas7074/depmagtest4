@@ -8,7 +8,7 @@ const scrambleTexts = [
 ]
 
 const Example3 = () => {
-  const [pause, setPause] = useState(false)
+  const [pause,] = useState(false)
 
   return (
     <>

@@ -2,7 +2,7 @@ import HTMLFlipBook from "react-pageflip";
 import React from "react";
 
 
-import back2 from "./3.png";
+
 import font from "./technical/font.png"
 import p2 from "./technical/3rd.png"
 import p6 from "./technical/4th.png"
@@ -143,7 +143,7 @@ prevButtonClick = () => {
     return (
       <div><body >
       <div className="container"><div className="block">
-      <div className="back3"><img src={back2} width={"30%"}/> </div>
+      <div className="back3"> </div>
         <HTMLFlipBook
          width={450}
           height={673}
@@ -1345,18 +1345,14 @@ prevButtonClick = () => {
           <div>
 
 <button className="button1" type="button1" onClick={this.prevButtonClick} >
-  <img src={arrow} width={"40px"} style={{
   
-  position: "center",   rotate: "180deg", }}/>
 </button>
 <div className="Bottom2">
 [<span>{this.state.page}</span> of 
    <span>{this.state.totalPage}</span>]
 </div>
 <button className="button2" type="button2" onClick={this.nextButtonClick}>
- <img src={arrow} width={"40px"} style={{
-  
-position: "center",  }}/>
+ 
 </button>
 
 </div>
