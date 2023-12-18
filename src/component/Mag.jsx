@@ -74,13 +74,21 @@ import story13 from "./technical/story13.png"
 import story14 from "./technical/story14.png"
 import end from "./technical/end.png"
 import storyfont from "./technical/artfront.png"
-
+import pdf from "./magpdf.pdf"
 import "./Cssmag2.css"
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css'
 import arrow from "./arrow.png";
 
-
+const onButtonClick = () => {
+  const pdfUrl = pdf;
+  const link = document.createElement("a");
+  link.href = pdfUrl;
+  link.download = "PrisMa.pdf"; // specify the filename
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
 const PageCover = React.forwardRef((props, ref) => {
   return (
@@ -93,7 +101,7 @@ const PageCover = React.forwardRef((props, ref) => {
 });
 
 const Page = React.forwardRef((props, ref) => {
-  
+
    
   return (
     <div className="page" ref={ref}>
@@ -110,13 +118,15 @@ const Page = React.forwardRef((props, ref) => {
 });
 
 class DemoBook extends React.Component {
+
+  
   
   constructor(props) {
     super(props);
 
     this.state = {
       page: 0,
-      totalPage: 108,
+      totalPage: 69,
     };
   }
 
@@ -181,7 +191,8 @@ prevButtonClick = () => {
 	display= "flex"
 	flex-direction= "column"
 	justify-content="space-between"
-	
+  style={{position:"absolute",
+  top:"50%"}}
           
          
       />
@@ -194,7 +205,7 @@ prevButtonClick = () => {
         align-items= "center"
         position={"absolute"}
         width="100%"
-        
+       
 	
 	display= "flex"
 	flex-direction= "column"
@@ -882,23 +893,8 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={43}><Zoom>
-      <img
-        src={article34} alt="react logo" 
-        top={"50%"}
-        align-items= "center"
-        position={"absolute"}
-        width="100%"
-        
-	
-	display= "flex"
-	flex-direction= "column"
-	justify-content="space-between"
-	
-          
-         
-      />
-    </Zoom></Page><Page number={44}><Zoom>
+    </Zoom></Page>
+    <Page number={43}><Zoom>
       <img
         src={article35} alt="react logo" 
         top={"50%"}
@@ -914,7 +910,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={45}><Zoom>
+    </Zoom></Page><Page number={44}><Zoom>
       <img
         src={article36} alt="react logo" 
         top={"50%"}
@@ -931,7 +927,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={46}><Zoom>
+    <Page number={45}><Zoom>
       <img
         src={article37} alt="react logo" 
         top={"50%"}
@@ -947,7 +943,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={47}><Zoom>
+    </Zoom></Page><Page number={46}><Zoom>
       <img
         src={article38} alt="react logo" 
         top={"50%"}
@@ -963,7 +959,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={48}><Zoom>
+    </Zoom></Page><Page number={47}><Zoom>
       <img
         src={article39} alt="react logo" 
         top={"50%"}
@@ -979,7 +975,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={49}><Zoom>
+    </Zoom></Page><Page number={48}><Zoom>
       <img
         src={article40} alt="react logo" 
         top={"50%"}
@@ -995,7 +991,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={50}><Zoom>
+    </Zoom></Page><Page number={49}><Zoom>
       <img
         src={article41} alt="react logo" 
         top={"50%"}
@@ -1011,7 +1007,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={51}><Zoom>
+    </Zoom></Page><Page number={50}><Zoom>
       <img
         src={article42} alt="react logo" 
         top={"50%"}
@@ -1027,7 +1023,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={52}><Zoom>
+    </Zoom></Page><Page number={51}><Zoom>
       <img
         src={article43} alt="react logo" 
         top={"50%"}
@@ -1043,7 +1039,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={53}><Zoom>
+    </Zoom></Page><Page number={52}><Zoom>
       <img
         src={article44} alt="react logo" 
         top={"50%"}
@@ -1063,7 +1059,7 @@ prevButtonClick = () => {
     
     {/*story*/ }
 
-    <Page number={54}><Zoom>
+    <Page number={53}><Zoom>
       <img
         src={storyfont} alt="react logo" 
         top={"50%"}
@@ -1081,7 +1077,7 @@ prevButtonClick = () => {
       />
     </Zoom></Page>
 
-    <Page number={55}><Zoom>
+    <Page number={54}><Zoom>
       <img
         src={story1} alt="react logo" 
         top={"50%"}
@@ -1097,7 +1093,7 @@ prevButtonClick = () => {
           
          
       />
-    </Zoom></Page><Page number={56}><Zoom>
+    </Zoom></Page><Page number={55}><Zoom>
       <img
         src={story2} alt="react logo" 
         top={"50%"}
@@ -1114,7 +1110,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={57}><Zoom>
+    <Page number={56}><Zoom>
       <img
         src={story3} alt="react logo" 
         top={"50%"}
@@ -1131,7 +1127,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={58}><Zoom>
+    <Page number={57}><Zoom>
       <img
         src={story4} alt="react logo" 
         top={"50%"}
@@ -1148,7 +1144,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={59}><Zoom>
+    <Page number={58}><Zoom>
       <img
         src={story5} alt="react logo" 
         top={"50%"}
@@ -1165,7 +1161,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={60}><Zoom>
+    <Page number={59}><Zoom>
       <img
         src={story6} alt="react logo" 
         top={"50%"}
@@ -1182,7 +1178,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={61}><Zoom>
+    <Page number={60}><Zoom>
       <img
         src={story7} alt="react logo" 
         top={"50%"}
@@ -1199,7 +1195,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={62}><Zoom>
+    <Page number={61}><Zoom>
       <img
         src={story8} alt="react logo" 
         top={"50%"}
@@ -1216,7 +1212,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={63}><Zoom>
+    <Page number={62}><Zoom>
       <img
         src={story9} alt="react logo" 
         top={"50%"}
@@ -1233,7 +1229,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={64}><Zoom>
+    <Page number={63}><Zoom>
       <img
         src={story10} alt="react logo" 
         top={"50%"}
@@ -1250,7 +1246,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={65}><Zoom>
+    <Page number={64}><Zoom>
       <img
         src={story11} alt="react logo" 
         top={"50%"}
@@ -1267,7 +1263,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={66}><Zoom>
+    <Page number={65}><Zoom>
       <img
         src={story12} alt="react logo" 
         top={"50%"}
@@ -1284,7 +1280,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={67}><Zoom>
+    <Page number={66}><Zoom>
       <img
         src={story13} alt="react logo" 
         top={"50%"}
@@ -1301,7 +1297,7 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
-    <Page number={68}><Zoom>
+    <Page number={67}><Zoom>
       <img
         src={story14} alt="react logo" 
         top={"50%"}
@@ -1318,6 +1314,16 @@ prevButtonClick = () => {
          
       />
     </Zoom></Page>
+    <Page number={68}>
+                <h3 style={{textAlign:"center"}}>
+                    Get a e-copy
+                </h3><div style={{ margin:"0 auto",
+               position:"absolute",left:"33%",right:"33%"}}>
+                <button style={{textAlign:"center",
+              color:"white", 
+              background:"black"}} onClick={onButtonClick}>
+                    Download
+                </button></div></Page>
     <Page number={69}><Zoom>
       <img
         src={end} alt="react logo" 
@@ -1368,6 +1374,7 @@ prevButtonClick = () => {
 
         </div>
 </div>
+
 <i className="number">{this.state.state}</i><i>{this.state.orientation}</i>
 </body>
               </div>
