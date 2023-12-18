@@ -74,7 +74,7 @@ import story13 from "./technical/story13.png"
 import story14 from "./technical/story14.png"
 import end from "./technical/end.png"
 import storyfont from "./technical/artfront.png"
-import pdf from "./magpdf.pdf"
+import pdf from "./PrisMa.pdf"
 import "./Cssmag2.css"
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css'
@@ -1316,7 +1316,7 @@ prevButtonClick = () => {
     </Zoom></Page>
     <Page number={68}>
                 <h3 style={{textAlign:"center"}}>
-                    Get a e-copy
+                Get your e-copy
                 </h3><div style={{ margin:"0 auto",
                position:"absolute",left:"33%",right:"33%"}}>
                 <button style={{textAlign:"center",
