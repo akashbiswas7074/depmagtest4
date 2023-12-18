@@ -1,6 +1,6 @@
 import HTMLFlipBook from "react-pageflip";
 import React from "react";
-
+import back2 from "./3.png";
 
 
 import font from "./technical/font.png"
@@ -142,16 +142,17 @@ prevButtonClick = () => {
   render() {
     return (
       <div><body >
-      <div className="container"><div className="block">
-      <div className="back3"> </div>
+       <div className="container"><div className="block">
+      <div className="back3"><img src={back2} width={"30%"}/> </div>
         <HTMLFlipBook
          width={450}
-          height={673}
+          height={700}
           size="stretch"
           minWidth={361}
           maxWidth={370}
           minHeight={450}
           maxHeight={433}
+      
           maxShadowOpacity={0.5}
           showCover={true}
           mobileScrollSupport={true}
@@ -176,7 +177,7 @@ prevButtonClick = () => {
         
         align-items= "center"
         width="100%"
-	height= "96%"
+	
 	display= "flex"
 	flex-direction= "column"
 	justify-content="space-between"
@@ -192,7 +193,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -209,7 +210,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -226,7 +227,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -243,7 +244,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -260,7 +261,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -277,7 +278,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -294,7 +295,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -311,7 +312,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -329,7 +330,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -347,7 +348,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -368,7 +369,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -385,7 +386,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -402,7 +403,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -419,7 +420,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -436,7 +437,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -452,7 +453,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -468,7 +469,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -484,7 +485,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -500,7 +501,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -516,7 +517,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -532,7 +533,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -548,7 +549,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -564,7 +565,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -580,7 +581,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -597,7 +598,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -614,7 +615,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -630,7 +631,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -646,7 +647,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -662,7 +663,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -678,7 +679,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -694,7 +695,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -710,7 +711,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -726,7 +727,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -742,7 +743,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -758,7 +759,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -775,7 +776,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -791,7 +792,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -807,7 +808,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -823,7 +824,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -839,7 +840,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -855,7 +856,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -871,7 +872,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -887,7 +888,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -903,7 +904,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -919,7 +920,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -936,7 +937,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -952,7 +953,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -968,7 +969,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -984,7 +985,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1000,7 +1001,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1016,7 +1017,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1032,7 +1033,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1048,7 +1049,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1068,7 +1069,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1086,7 +1087,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1102,7 +1103,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1119,7 +1120,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1136,7 +1137,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1153,7 +1154,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1170,7 +1171,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1187,7 +1188,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1204,7 +1205,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1221,7 +1222,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1238,7 +1239,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1255,7 +1256,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1272,7 +1273,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1289,7 +1290,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1306,7 +1307,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1323,7 +1324,7 @@ prevButtonClick = () => {
         top={"50%"}
         align-items= "center"
         position={"absolute"}
-        width="97%"
+        width="100%"
         
 	
 	display= "flex"
@@ -1345,14 +1346,18 @@ prevButtonClick = () => {
           <div>
 
 <button className="button1" type="button1" onClick={this.prevButtonClick} >
+<img src={arrow} width={"40px"} style={{
   
+  position: "center",   rotate: "180deg", }}/>
 </button>
 <div className="Bottom2">
 [<span>{this.state.page}</span> of 
    <span>{this.state.totalPage}</span>]
 </div>
 <button className="button2" type="button2" onClick={this.nextButtonClick}>
- 
+<img src={arrow} width={"40px"} style={{
+  
+  position: "center",  }}/>
 </button>
 
 </div>
