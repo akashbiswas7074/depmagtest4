@@ -11,6 +11,7 @@ import p8 from "./technical/6th.png"
 import p4 from "./technical/7th.png"
 import p3 from "./technical/8th.png"
 import p5 from "./technical/9th.png"
+import p12 from "./technical/11th.png"
 import p7 from "./technical/extra.png"
 import articleback from "./technical/2nd.png"
 import article1 from "./technical/Article1.png"
@@ -252,6 +253,23 @@ prevButtonClick = () => {
     <Page number={4}><Zoom>
       <img
         src={p5} alt="react logo" 
+        top={"50%"}
+        align-items= "center"
+        position={"absolute"}
+        width="100%"
+        
+	
+	display= "flex"
+	flex-direction= "column"
+	justify-content="space-between"
+	
+          
+         
+      />
+    </Zoom></Page>
+    <Page number={4}><Zoom>
+      <img
+        src={p12} alt="react logo" 
         top={"50%"}
         align-items= "center"
         position={"absolute"}
